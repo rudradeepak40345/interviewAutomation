@@ -1,0 +1,91 @@
+import cv2
+import time
+i=0
+while(i!=20):
+    time.sleep(1)
+    videoCaptureObject = cv2.VideoCapture(0)
+    result = True
+    while (result):
+        if(i==0):
+            ret, frame = videoCaptureObject.read()
+            cv2.imwrite("C:/Users/saika/OneDrive/Desktop/files/fanta.jpg", frame)
+            result = False
+        elif(i==1):
+            ret, frame = videoCaptureObject.read()
+            cv2.imwrite("C:/Users/saika/OneDrive/Desktop/files/fanta2.jpg", frame)
+            result = False
+        elif (i == 2):
+            ret, frame = videoCaptureObject.read()
+            cv2.imwrite("C:/Users/saika/OneDrive/Desktop/files/fanta3.jpg", frame)
+            result = False
+        elif (i == 3):
+            ret, frame = videoCaptureObject.read()
+            cv2.imwrite("C:/Users/saika/OneDrive/Desktop/files/fanta4.jpg", frame)
+            result = False
+        elif (i == 4):
+            ret, frame = videoCaptureObject.read()
+            cv2.imwrite("C:/Users/saika/OneDrive/Desktop/files/fanta5.jpg", frame)
+            result = False
+        elif (i == 5):
+            ret, frame = videoCaptureObject.read()
+            cv2.imwrite("C:/Users/saika/OneDrive/Desktop/files/fanta6.jpg", frame)
+            result = False
+        elif (i == 6):
+            ret, frame = videoCaptureObject.read()
+            cv2.imwrite("C:/Users/saika/OneDrive/Desktop/files/fanta7.jpg", frame)
+            result = False
+        elif (i == 7):
+            ret, frame = videoCaptureObject.read()
+            cv2.imwrite("C:/Users/saika/OneDrive/Desktop/files/fanta8.jpg", frame)
+            result = False
+        elif (i == 8):
+            ret, frame = videoCaptureObject.read()
+            cv2.imwrite("C:/Users/saika/OneDrive/Desktop/files/fanta9.jpg", frame)
+            result = False
+        elif (i == 9):
+            ret, frame = videoCaptureObject.read()
+            cv2.imwrite("C:/Users/saika/OneDrive/Desktop/files/fanta10.jpg", frame)
+            result = False
+        elif (i == 10):
+            ret, frame = videoCaptureObject.read()
+            cv2.imwrite("C:/Users/saika/OneDrive/Desktop/files/fanta11.jpg", frame)
+            result = False
+        elif (i == 11):
+            ret, frame = videoCaptureObject.read()
+            cv2.imwrite("C:/Users/saika/OneDrive/Desktop/files/fanta12.jpg", frame)
+            result = False
+        elif (i == 12):
+            ret, frame = videoCaptureObject.read()
+            cv2.imwrite("C:/Users/saika/OneDrive/Desktop/files/fanta13.jpg", frame)
+            result = False
+        elif (i == 13):
+            ret, frame = videoCaptureObject.read()
+            cv2.imwrite("C:/Users/saika/OneDrive/Desktop/files/fanta14.jpg", frame)
+            result = False
+        elif (i == 14):
+            ret, frame = videoCaptureObject.read()
+            cv2.imwrite("C:/Users/saika/OneDrive/Desktop/files/fanta15.jpg", frame)
+            result = False
+        elif (i == 15):
+            ret, frame = videoCaptureObject.read()
+            cv2.imwrite("C:/Users/saika/OneDrive/Desktop/files/fanta16.jpg", frame)
+            result = False
+        elif (i == 16):
+            ret, frame = videoCaptureObject.read()
+            cv2.imwrite("C:/Users/saika/OneDrive/Desktop/files/fanta17.jpg", frame)
+            result = False
+        elif (i == 18):
+            ret, frame = videoCaptureObject.read()
+            cv2.imwrite("C:/Users/saika/OneDrive/Desktop/files/fanta18.jpg", frame)
+            result = False
+        elif (i == 19):
+            ret, frame = videoCaptureObject.read()
+            cv2.imwrite("C:/Users/saika/OneDrive/Desktop/files/fanta19.jpg", frame)
+            result = False
+        elif (i == 20):
+            ret, frame = videoCaptureObject.read()
+            cv2.imwrite("C:/Users/saika/OneDrive/Desktop/files/fanta20.jpg", frame)
+            result = False
+    i+=1
+    videoCaptureObject.release()
+    cv2.destroyAllWindows()
